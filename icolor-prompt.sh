@@ -9,8 +9,8 @@ function random_color_code(){
 
     # list that will hold two randomly generated numbers 
     LIST=(
-        $(( 31 + RANDOM % 7 )) # Generates a random number between 31 and 37 
-        $(( 91 + RANDOM % 7 )) # Generates a random number between 91 and 97
+        $(( 31 + RANDOM % 8 )) # Generates a random number between 31 and 37 
+        $(( 91 + RANDOM % 8 )) # Generates a random number between 91 and 97
     );
 
     # another random number
